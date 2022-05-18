@@ -9,7 +9,7 @@ qt_standard_project_setup()
 qt_add_qml_module(subdir
     VERSION 1.0
     URI
-        "subdir.test"
+        "some.sub.dir"
     QML_FILES
         SubItem.qml
 )

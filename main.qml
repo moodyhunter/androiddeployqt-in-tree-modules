@@ -1,4 +1,4 @@
-import subdir.test
+import some.sub.dir
 
 import QtQuick
 import QtQuick.Controls
