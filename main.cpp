@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 
     engine.addImportPath(app.applicationDirPath());
 
-    const QUrl url(u"qrc:/TestAppMain/main.qml"_qs);
+    const QUrl url(u"qrc:/TestAppMain/main/main.qml"_qs);
     const auto callback = [url](const QObject *obj, const QUrl &objUrl)
     {
         if (!obj && url == objUrl)

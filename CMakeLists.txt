@@ -10,7 +10,7 @@ add_subdirectory(subdir)
 qt_add_executable(TestAppMain main.cpp)
 
 qt_add_qml_module(TestAppMain
-    URI "TestAppMain"
+    URI "TestAppMain.main"
     VERSION 1.0
     QML_FILES   main.qml
     IMPORT_PATH ${CMAKE_BINARY_DIR}
